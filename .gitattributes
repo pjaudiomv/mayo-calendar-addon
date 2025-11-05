@@ -12,3 +12,7 @@ README.md export-ignore
 /.github export-ignore
 /docs  export-ignore
 /api-docs export-ignore
+INSTALL.md export-ignore
+vite.config.js export-ignore
+package-lock.json export-ignore
+package.json export-ignore
