@@ -1,0 +1,32 @@
+{
+  "name": "mayo-calendar-addon",
+  "version": "1.0.0",
+  "description": "FullCalendar addon for Mayo Events Manager",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "keywords": [
+    "mayo",
+    "calendar",
+    "fullcalendar",
+    "bmlt"
+  ],
+  "author": "BMLT Enabled",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@fullcalendar/core": "^6.1.19",
+    "@fullcalendar/daygrid": "^6.1.19",
+    "@fullcalendar/list": "^6.1.19",
+    "@fullcalendar/timegrid": "^6.1.19",
+    "@wordpress/element": "^5.18.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.2.0"
+  }
+}

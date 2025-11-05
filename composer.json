@@ -1,0 +1,20 @@
+{
+  "name": "bmlt-enabled/mayo-calendar-addon",
+  "description": "This is a WordPress plugin for Mayo Calendar Addon.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pjaudiomv"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*",
+    "wp-coding-standards/wpcs": "^3.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

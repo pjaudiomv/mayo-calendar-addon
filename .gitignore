@@ -1,0 +1,14 @@
+.project
+.settings/*
+.vscode/*
+.DS_Store
+.idea
+vendor/
+logs/
+build/
+*.zip
+node_modules/
+.phpdoc/
+api-docs/
+docs/build-dev/
+docs/static/api/
