@@ -22,7 +22,7 @@ $(DIST_FILES): $(NODE_MODULES)
 $(NODE_MODULES):
 	npm install
 
-$(ZIP_FILE): $(VENDOR_AUTOLOAD) $(DIST_FILES)
+$(ZIP_FILE): $(DIST_FILES)
 	git archive --format=zip --output=${ZIP_FILENAME} $(COMMIT)
 	zip -r ${ZIP_FILENAME} assets/js/dist/ assets/css/
 	mkdir -p ${BUILD_DIR} && mv ${ZIP_FILENAME} ${BUILD_DIR}/
