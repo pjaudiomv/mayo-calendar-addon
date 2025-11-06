@@ -4,13 +4,7 @@ A WordPress plugin that adds FullCalendar view support to Mayo Events Manager.
 
 ## Description
 
-This companion plugin extends Mayo Events Manager by adding a calendar view powered by FullCalendar. Display your events in an interactive month, week, or list calendar format.
-
-## Requirements
-
-- WordPress 5.8 or higher
-- PHP 7.4 or higher
-- **Mayo Events Manager plugin** (must be installed and activated)
+This companion plugin extends Mayo Events Manager by adding a calendar view powered by FullCalendar.
 
 ## Installation
 
@@ -76,46 +70,3 @@ Add the calendar to any page or post using the `[mayo_event_calendar]` shortcode
   categories="meetings,events"
   event_type="Service"]
 ```
-
-## Features
-
-- **Multiple Views**: Switch between month, week, and list views
-- **Event Filtering**: Filter by categories, tags, event type, and more
-- **Click to View**: Click any event to view its full details
-- **Color Coding**: Events are color-coded by type (Service vs Activity)
-- **Responsive**: Mobile-friendly design
-- **Dynamic Loading**: Events load automatically as you navigate the calendar
-
-## Development
-
-### Build Commands
-
-- `npm run build` - Build for production
-- `npm run dev` - Build for development with watch mode
-
-### File Structure
-
-```
-mayo-calendar-addon/
-├── mayo-calendar-addon.php    # Main plugin file
-├── assets/
-│   ├── js/
-│   │   ├── src/
-│   │   │   ├── calendar.js         # Entry point
-│   │   │   └── EventCalendar.js    # Calendar component
-│   │   └── dist/
-│   │       └── calendar.bundle.js  # Compiled JS
-│   └── css/
-│       └── calendar.css            # Calendar styles
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-## License
-
-GPL v2 or later
-
-## Credits
-
-Built with [FullCalendar](https://fullcalendar.io/) v6

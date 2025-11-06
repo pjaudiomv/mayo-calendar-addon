@@ -12,3 +12,11 @@ node_modules/
 api-docs/
 docs/build-dev/
 docs/static/api/
+
+composer.json
+composer.lock
+docker-compose.yml
+Dockerfile
+CONTRIBUTING.md
+.phpcs.xml
+.editorconfig
