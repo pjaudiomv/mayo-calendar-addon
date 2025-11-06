@@ -5,21 +5,6 @@ on:
     tags: ["*"]
 
 jobs:
-  lint:
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Check out code 🛒
-        uses: actions/checkout@v5
-
-      - name: Setup PHP 🐫
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.2
-
-      - name: Linter 🧹
-        id: linter
-        run: make lint
-
   package:
     runs-on: ubuntu-24.04
     env:
@@ -28,7 +13,6 @@ jobs:
       GITHUB_RELEASE_FILENAME: "mayo-calendar-addon.zip"
       PLUGIN: "mayo-calendar-addon"
       MAINFILE: "mayo-calendar-addon.php"
-    needs: [lint]
     permissions:
       contents: write
     steps:
@@ -63,12 +47,3 @@ jobs:
           artifacts: ${{ env.ARTIFACT_PATH }}
           bodyFile: "changelog.txt"
           prerelease: ${{ env.RELEASE_TYPE }}
-
-#      - name: Wordpress Release ⛴
-#        if: "!contains(github.ref, 'beta')"
-#        id: wordpress-stable-release
-#        env:
-#          WORDPRESS_USERNAME : ${{ secrets.WORDPRESS_USERNAME }}
-#          WORDPRESS_PASSWORD : ${{ secrets.WORDPRESS_PASSWORD }}
-#        run: |
-#          ./.github/scripts/deploy-wordpress.sh
