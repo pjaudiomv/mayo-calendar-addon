@@ -164,43 +164,6 @@ All event data is fetched from your local Mayo Events Manager installation via W
 == Changelog ==
 
 = 1.0.0 =
+
 * Initial release
-* Month, week, and list calendar views
-* Event filtering by categories, tags, type, and service body
-* Color-coded events by type
-* Click-through to event details
-* Responsive design
-* Dynamic event loading
-* Built with FullCalendar v6
-* Vite build system for fast compilation
 
-== Upgrade Notice ==
-
-= 1.0.0 =
-Initial release of Mayo Calendar Addon. Requires Mayo Events Manager plugin.
-
-== Development ==
-
-**For Developers:**
-
-This plugin is built with modern JavaScript using React and Vite.
-
-**Build Commands:**
-* `npm run build` - Build for production
-* `npm run dev` - Build for development with watch mode
-
-**Repository:**
-https://github.com/bmlt-enabled/mayo-calendar-addon
-
-**Contributing:**
-Contributions are welcome! Please submit issues and pull requests on GitHub.
-
-**Technical Stack:**
-* React 18
-* FullCalendar v6
-* WordPress @wordpress/element
-* Vite build system
-
-== Credits ==
-
-Built with ❤️ by BMLT Enabled
