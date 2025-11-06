@@ -4,7 +4,7 @@
 
 ### Option 1: Install from GitHub Release (Recommended)
 
-1. Go to the [Releases page](https://github.com/bmlt-enabled/mayo-calendar-addon/releases)
+1. Go to the [Releases page](https://github.com/pjaudiomv/mayo-calendar-addon/releases)
 2. Download the latest `mayo-calendar-addon.zip` file
 3. In WordPress admin, go to **Plugins > Add New > Upload Plugin**
 4. Choose the downloaded zip file and click **Install Now**

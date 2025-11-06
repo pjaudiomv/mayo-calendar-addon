@@ -14,11 +14,11 @@ This companion plugin extends Mayo Events Manager by adding a calendar view powe
 
 ## Installation
 
-1. Download or clone this repository
-2. Run `npm install` to install dependencies
-3. Run `npm run build` to compile the JavaScript
-4. Upload the `mayo-calendar-addon` folder to your `/wp-content/plugins/` directory
-5. Activate the plugin through the 'Plugins' menu in WordPress
+1. Go to the [Releases page](https://github.com/pjaudiomv/mayo-calendar-addon/releases)
+2. Download the latest `mayo-calendar-addon.zip` file
+3. In WordPress admin, go to **Plugins > Add New > Upload Plugin**
+4. Choose the downloaded zip file and click **Install Now**
+5. Click **Activate Plugin**
 
 **Important:** Make sure Mayo Events Manager is already installed and activated before activating this addon.
 
